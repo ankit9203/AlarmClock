@@ -12,7 +12,7 @@ public class Main {
      Scanner scanner = new Scanner(System.in);
      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
      LocalTime alarmtime=null;
-     String filePath ="C:\\Users\\User\\Documents\\file.mp3";
+     String filePath ="C:\\Users\\User\\Documents\\file.WAV";
     while(alarmtime==null){
         try{
             System.out.println("Enter an alarm time(HH:mm:ss)");
